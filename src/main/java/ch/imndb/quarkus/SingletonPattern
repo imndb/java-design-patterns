@@ -1,8 +1,14 @@
 public class SingletonPattern {
 
-private SingletonPattern = new SingletonPattern();
+private static SingletonPattern instance;
+
+public SingletonPattern getInstance() {
+
+if( instance == null )
+  instance =  = new SingletonPattern();
+return instance;
+
+}
 private SingletonPattern() {}
-
-
 
 }
