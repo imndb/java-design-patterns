@@ -2,10 +2,10 @@ public class SingletonPattern {
 
 private static SingletonPattern instance;
 
-public SingletonPattern getInstance() {
+public static SingletonPattern getInstance() {
 
 if( instance == null )
-  instance =  = new SingletonPattern();
+  instance = new SingletonPattern();
 return instance;
 
 }
