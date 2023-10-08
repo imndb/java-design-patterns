@@ -1,3 +1,5 @@
+package ch.imndb.quarkus.singelton;
+
 public class SingletonPattern {
 
 private static SingletonPattern instance;
